@@ -7,7 +7,6 @@ let alphabets = [
     "be",
     "because",
     "but",
-    "by",
     "can",
     "come",
     "could",
