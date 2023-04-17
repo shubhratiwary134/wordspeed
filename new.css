@@ -134,6 +134,7 @@ opacity: 0;
     position: absolute;
     font-family: cursive;
     top:100px;
+    flex-direction: column;
     left:1300px;
     box-shadow: 0 0 10px black,0 0 100px  #2196f3;
    color: lime;
