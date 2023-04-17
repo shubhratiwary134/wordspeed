@@ -146,6 +146,7 @@ function timer() {
             elementstat.innerHTML = stringForstats
 
             document.getElementById("displayTimer").style.opacity = "0";
+            
 
 
         }
