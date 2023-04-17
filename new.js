@@ -182,7 +182,7 @@ start.addEventListener("click", () => {
 
 document.body.addEventListener("keydown", (e) => {
 
-    if (e.code == "Space") {
+    if (e.code == "Space" && seconds!=0) {
 
         if (arrayForWords[countSpace] == input.value || input.value == ` ${arrayForWords[countSpace]}`) {
             document.getElementById(countSpace).style.color = "lime"
