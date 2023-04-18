@@ -1,11 +1,12 @@
 body {
     margin: 0px;
     padding: 0px;
-    background: #031321;
+    background: #08131d;
     color: white;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 100;
     
+
 
 
 }
@@ -23,6 +24,7 @@ h1 {
     background-color: #88a3ef36;
     border-radius: 10rem;
     box-shadow: #755bea;
+    color:rgb(177, 181, 104);
 
 
 }
@@ -39,17 +41,18 @@ h1 {
 
 #generator {
     position: absolute;
-    top: 400px;
-    left: 250px;
-    width: 800px;
+    top: 300px;
+    left: 185px;
+    width: 980px;
     /* overflow-y: auto; */
     height: 300px;
     font-size: 25px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-bottom: 10px;
     
+    line-height: 1.3em;
+    color:rgb(177, 181, 104);
     
 
 
@@ -58,12 +61,13 @@ h1 {
 #inputField {
     position: absolute;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 40px;
+
     width: 960px;
-    top: 750px;
+    top: 700px;
     left: 200px;
+
 
 
 }
@@ -74,9 +78,9 @@ h1 {
     -moz-appearance: none;
     appearance: none;
     background: #f2f2f2;
-    padding: 12px;
+    padding:15px 30px;
     width: 250px;
-    height: 30px;
+    
     border-radius: 30px;
     /* background: linear-gradient(90deg,rgb(111, 111, 171),rgb(11, 11, 126)); */
     font-weight: bolder;
@@ -92,7 +96,7 @@ h1 {
     color: rgb(53, 247, 150);
     letter-spacing: 1px;
     text-decoration: lowercase;
-    padding: 12px 36px;
+    padding:15px 30px;
     margin: 10px 0px;
     overflow: hidden;
     transition: 0.2s;
@@ -114,7 +118,7 @@ h1 {
 #nextBtn {
     position: relative;
     display: inline-block;
-    padding: 12px 30px;
+    padding:15px 30px;
     margin: 10px 0px;
     color: #fff;
     text-decoration: none;

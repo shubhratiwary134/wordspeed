@@ -1,4 +1,5 @@
-let alphabets = [
+let alphabets = ["nice","through",
+    "love",
     "all",
     "also",
     "and",
