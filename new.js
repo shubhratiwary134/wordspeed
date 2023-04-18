@@ -146,7 +146,7 @@ function timer() {
             elementstat.innerHTML = stringForstats
 
             document.getElementById("displayTimer").style.opacity = "0";
-            
+
 
 
         }
@@ -159,7 +159,7 @@ function timer() {
 
 start.addEventListener("click", () => {
     if (generateComplete == false) {
-        for (let i = 0; i <= 90; i++) {
+        for (let i = 0; i <= 99; i++) {
             random = Math.floor(Math.random() * alphabets.length)
             arrayForWords.push(alphabets[random])
             generate.innerHTML += `<div class="letters" id="${i}">${alphabets[random]}</div> `
