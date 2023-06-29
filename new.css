@@ -122,8 +122,8 @@ h1 {
 #nextBtn {
     position: relative;
     display: inline-block;
-    padding:5px 15px;
-    margin: 10px 0px;
+   
+    margin: 0;
     color: #323437;
     text-decoration: none;
     font-size: 18px;
@@ -163,9 +163,9 @@ h1 {
     top: 300px;
     flex-direction: column;
     left: 1300px;
-    box-shadow: 0 0 10px black, 0 0 100px #E2B714;
+    box-shadow: 0 0 10px black, 0 0 80px white;
     color: lime;
-    background: linear-gradient(to right, rgb(161, 179, 70), rgb(200, 245, 52));
+    background: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
      font-size: 24px; 
