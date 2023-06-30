@@ -106,7 +106,7 @@ h1 {
     position: relative;
     display: inline-block;
     background: grey;
-    color: #323437;
+    color: white;
     letter-spacing: 1px;
     text-decoration: lowercase;
     padding:5px 15px;
@@ -115,7 +115,7 @@ h1 {
     transition: 0.2s;
     font-weight: 800;
     font-size: 12px;
-   border-radius: 20%;
+  
     cursor: pointer;
 
 }
@@ -125,7 +125,7 @@ h1 {
 #nextBtn {
     position: relative;
     display: inline-block;
-   padding: 5px 10px;
+   padding: 0 15px;
     margin: 0;
     color: #323437;
     text-decoration: none;

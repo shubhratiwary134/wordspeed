@@ -192,8 +192,9 @@ document.body.addEventListener("keydown", (e) => {
             varForAccuracy += 1
         }
         else {
-            document.getElementById(countSpace).style.color = "black"
-            document.getElementById(countSpace).style.fontWeight = "bold"
+            document.getElementById(countSpace).style.color = "red"
+            // document.getElementById(countSpace).style.fontWeight = "bold"
+            document.getElementById(countSpace).style.fontFamily = " Kalam, cursive" 
         }
 
 
