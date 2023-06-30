@@ -137,10 +137,10 @@ function timer() {
             })
 
             let finalAccuracy = Math.floor((varForAccuracy / countSpace) * 100)
-            let stringForstats = `<div>words per minutes=${countSpace}(WPM)</div>
-                                     <div>accuracy= ${finalAccuracy}%</div>
-                                     <div>right words= ${varForAccuracy}</div>
-                                     <div> wrong words= ${countSpace - varForAccuracy}</div>`
+            let stringForstats = `<div>words per minutes: ${countSpace}(WPM)</div>
+                                     <div>accuracy: ${finalAccuracy}%</div>
+                                     <div>right words: ${varForAccuracy}</div>
+                                     <div> wrong words: ${countSpace - varForAccuracy}</div>`
             document.getElementById("elementForStatistics").style.display = "flex";
             document.getElementById("elementForStatistics").style.justifyContent = "center";
             document.getElementById("elementForStatistics").style.alignItems = "center";
