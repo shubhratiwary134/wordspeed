@@ -188,10 +188,12 @@ document.body.addEventListener("keydown", (e) => {
 
         if (arrayForWords[countSpace] == input.value || input.value == ` ${arrayForWords[countSpace]}`) {
             document.getElementById(countSpace).style.color = "white"
+            document.getElementById(countSpace).style.fontFamily = " Kalam, cursive" 
             varForAccuracy += 1
         }
         else {
-            document.getElementById(countSpace).style.color = "red"
+            document.getElementById(countSpace).style.color = "black"
+            document.getElementById(countSpace).style.fontWeight = "bold"
         }
 
 

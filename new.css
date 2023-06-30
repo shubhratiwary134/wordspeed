@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
 body {
     margin: 0px;
     padding: 0px;
     background: #323437;
     color: white;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
     
 
 
@@ -34,8 +36,9 @@ h1 {
     border-radius: 10rem;
     box-shadow: #755bea;
     color: black;
-    font-weight: 200;
-    font-family: 'Crimson Text', serif;
+    font-weight: 700;
+    font-family: 'Prompt', sans-serif;
+    text-transform: uppercase;
 
 }
 
@@ -106,13 +109,13 @@ h1 {
     color: #323437;
     letter-spacing: 1px;
     text-decoration: lowercase;
-    padding:5px 10px;
+    padding:5px 15px;
     margin: 10px 0px;
     overflow: hidden;
     transition: 0.2s;
     font-weight: 800;
     font-size: 12px;
-   
+   border-radius: 20%;
     cursor: pointer;
 
 }
@@ -122,7 +125,7 @@ h1 {
 #nextBtn {
     position: relative;
     display: inline-block;
-   
+   padding: 5px 10px;
     margin: 0;
     color: #323437;
     text-decoration: none;
@@ -131,6 +134,7 @@ h1 {
     /* border-radius: 40px; */
     background: grey;
     font-weight: 800;
+    border-radius: 15%;
     
 
 
